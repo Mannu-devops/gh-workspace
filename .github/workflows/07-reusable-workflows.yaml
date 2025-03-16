@@ -25,7 +25,7 @@ jobs:
         steps:
             - name: checkout repository
               uses: actions/checkout@v4
-            - name: buil
+            - name: build
               id: build
               run: |
                 echo" Building using directory ${{ inputs.target-directory }}"
