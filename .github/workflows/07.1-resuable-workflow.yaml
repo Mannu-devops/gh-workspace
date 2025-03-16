@@ -6,7 +6,7 @@ jobs:
     deploy:
         uses: ./.github/workflows/07-reusable-workflows.yaml
         with:
-            taget-directory: dummy-dir
+            target-directory: dummy-dir
     print-outputs:
         runs-on: Ubuntu-latest
         needs: deploy
